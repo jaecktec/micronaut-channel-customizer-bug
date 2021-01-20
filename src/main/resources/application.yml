@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: demo
+  http:
+    services:
+      test-client:
+        url: "http://localhost:5556"
+        path: "/"
